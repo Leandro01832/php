@@ -1,0 +1,267 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+body{
+	background-color: yellow;
+	background-image: linear-gradient(to bottom, yellow 10%, red 100%);
+	background-attachment: fixed;
+}
+
+
+#conteudo{
+	margin: auto;
+	padding: 0px;
+	width: 500px;
+	height: 1200px;
+	background-color: white;
+
+}
+
+#conteudo2{
+	margin: auto;
+	padding: 0px;
+	
+	width: 300px;
+	height: 1200px;
+	background-color: transparent;
+
+}
+
+
+
+
+#topo{
+	position: relative;
+	margin: auto;
+	padding: 0px;
+	width: 300px;
+	
+	background-image: url(../imagens/centro_automotivo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 280px;
+}
+
+.servicos{
+	position: relative;
+  background-color: yellow;
+  width: 200px;
+  height: 80px;
+  font-size: 20px;
+
+}
+
+#servicos1{
+position: relative;
+
+background-image: url(../imagens/Suspensao.jpg);
+background-size: 100%;
+margin: 20px;
+padding: 20px;
+}
+
+#textservice1{
+	position: relative;	
+	left: 220px;
+	width: 110px;
+	height: 30px;
+	background-color: yellow;
+	background-image: linear-gradient(to bottom, yellow 0%, red 100%);
+}
+
+#servicos2{
+position: relative;
+background-image: url(../imagens/freio.jpg);
+background-size: 100%;
+margin: 20px;
+padding: 20px;
+}
+
+#textservice2{
+	position: relative;
+	left: 220px;	
+	width: 60px;
+	height: 30px;
+	background-color: yellow;
+	background-image: linear-gradient(to bottom, yellow 0%, red 100%);
+}
+
+#servicos3{
+position: relative;
+background-image: url(../imagens/direcao.jpg);
+background-size: 100%;
+margin: 20px;
+padding: 20px;
+}
+
+#textservice3{
+	position: relative;	
+	left: 220px;
+	width: 85px;
+	height: 30px;
+	background-color: yellow;
+	background-image: linear-gradient(to bottom, yellow 0%, red 100%);
+}
+
+#servicos4{
+position: relative;
+background-image: url(../imagens/escapamento.jpg);
+background-size: 100%;
+margin: 20px;
+padding: 20px;
+}
+
+#textservice4{
+	position: relative;	
+	left: 220px;
+	width: 135px;
+	height: 30px;
+	background-color: yellow;
+	background-image: linear-gradient(to bottom, yellow 0%, red 100%);
+}
+
+#servicos5{
+position: relative;
+background-image: url(../imagens/troca_oleo.jpg);
+background-size: 100%;
+margin: 20px;
+padding: 20px;
+}
+
+#textservice5p1{
+	position: relative;	
+	left: 220px;
+	width: 160px;
+	height: 30px;
+	background-color: yellow;
+	background-image: linear-gradient(to bottom, yellow 0%, red 100%);
+}
+
+#textservice5p2{
+	position: relative;	
+	left: 220px;
+	width: 23px;
+	height: 30px;
+	background-color: yellow;
+	background-image: linear-gradient(to bottom, yellow 0%, red 100%);
+}
+
+#textservice5p3{
+	position: relative;	
+	left: 220px;
+	width: 75px;
+	height: 30px;
+	background-color: yellow;
+	background-image: linear-gradient(to bottom, yellow 0%, red 100%);
+}
+
+#servicos6{
+position: relative;
+background-image: url(../imagens/alinhamento.jpg);
+background-size: 100%;
+margin: 20px;
+padding: 20px;
+}
+
+#textservice6p1{
+	position: relative;	
+	left: 220px;
+	width: 310px;
+	height: 30px;
+	background-color: yellow;
+	background-image: linear-gradient(to bottom, yellow 0%, red 100%);
+}
+
+#textservice6p2{
+	position: relative;	
+	left: 220px;
+	width: 160px;
+	height: 30px;
+	background-color: yellow;
+	background-image: linear-gradient(to bottom, yellow 0%, red 100%);
+}
+
+/*#rede1{
+	position: relative;
+	float: right;
+	margin-top: 60px;
+	margin-right: 60px;
+	left: 50px;
+	background-color: red;
+	bottom: 70px;
+}
+
+#rede2{
+	position: relative;
+	float: right;
+margin-top: 120px;
+left: 100px;
+background-color: yellow;
+bottom: 70px;
+}
+
+#rede3{
+	position: relative;
+	float: right;
+margin-top: 120px;
+
+left: 150px;
+
+background-color: black;
+}*/
+
+#rodape{
+	position: relative;
+	
+	width: 250px;
+	height: 120px;
+	background-color: red;	
+	padding-top: 10px;	
+}
+
+/*#formulario{
+	position: relative;
+	top: 180px;
+	background-color: red;
+	width: 170px;
+	height: 100px;
+}*/
+
+#input{
+	position: relative;
+	top: 3px;
+	left: 2px;
+}
+
+#submit{
+	position: relative;
+	top: 5px;
+	left: 2px;
+}
+
+
+
+
+/*organização das fotos
+organização das fotos
+organização das fotos
+organização das fotos
+organização das fotos
+organização das fotos
+organização das fotos
+organização das fotos
+organização das fotos*/
+
+
+
+.imagem{
+	width: 300px;
+	height: 250px;
+}
+
+
+

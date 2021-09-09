@@ -1,0 +1,199 @@
+#sair {
+position: relative;
+
+width: 105px;
+height: 30px;
+left: 400px;
+padding-left: 80px;
+background-image: url(../imagens/porta.jpg);
+
+}
+
+#sair:hover {
+position: relative;
+width: 105px;
+height: 30px;
+left: 400px;
+padding-left: 80px;
+background-image: url(../imagens/porta2.jpg);
+
+}
+
+
+ body#back{ 	
+ 	background-image: url(back/back2.jpg); 
+ 	background-size: 100%;		
+ 	
+ }
+
+ body#back2{  	
+ 	width: 1000px;
+ 	
+ 	}
+
+ div #cabecalho {
+ 	height: 100px;
+
+ }
+
+  #corpo_pagina {
+	position: relative;	
+	bottom: 450px;
+	height: 100px;
+	left: 50px;
+}
+
+  img#borda {
+	position: relative;
+	bottom: 1200px;
+}
+
+  img#borda2 {
+	position: relative;
+	bottom: 800px;
+	right: 200px;
+}
+
+  img#borda3 {
+	position: relative;
+	bottom: 400px;
+	right: 400px;
+}
+
+  img#borda4 {
+	position: relative;
+	bottom: 400px;
+	left: 580px;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+  img#borda5 {
+	position: relative;
+	bottom: 1180px;
+	left: 1150px;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+ img#borda6 {
+	position: relative;
+	bottom: 1580px;
+	left: 950px;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+ img#borda7 {
+	position: relative;
+	bottom: 300px;
+	left: 50px;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+#vermelho2 {
+	position: relative;
+	bottom: 500px;
+}
+
+ img#titulo {
+ 	position: relative;	
+ 	bottom: 525px;
+ 	left: 200px; 	
+ 	width: 200px
+ 	height: 50px;
+ }
+
+ img#fruta {
+ 	position: relative;
+ 	left: 400px;
+ 	top: 60px;
+ 	width: 80px;
+ 	height: 80px;
+ }
+
+ img#fruta2 {
+ 	position: relative;
+ 	left: 5px;
+ 	top: 60px;
+ 	width: 80px;
+ 	height: 80px;
+ } 
+
+  img#fundo {
+ 	position: relative; 	
+ 	width: 1400px;
+ 	height: 380px;
+ }
+
+ .muda_fruta {
+ 	position: relative;  		
+ 	right: 950px;
+ 	bottom: 400px;
+ }
+
+#menu{
+	position: relative;
+	bottom: 480px;
+	left: 200px;
+	background-color:#006400;
+}
+
+ #menu ul {
+ 	position: relative; 	
+    padding:0px;
+    margin:0px;
+    
+    list-style:none;
+}
+
+#menu ul li {
+	display: inline;
+	padding: 0px;
+    margin: 80px;
+
+	 }
+
+
+#menu ul li a {
+	color: white;
+
+	 }
+
+
+img.tarja {
+	position: relative;
+	left: 500px;
+}
+
+img#tarja1 {
+	position: relative;
+	left: 420px;
+	bottom: 15px;
+}
+
+img#tarja2 {
+	position: relative;
+	left: 600px;
+	bottom: 20px;
+}
+
+#corpo_pagina{
+	position: relative;
+}
+
+
+
+
+
+ 

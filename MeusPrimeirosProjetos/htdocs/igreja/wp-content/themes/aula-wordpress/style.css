@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Igreja em Cataguases
+Theme URI: http://siteprofissional.somee.com
+Author: Leandro Luis da Slva
+Author URI: http://siteprofissional.somee.com
+Description: Criação do site de igreja com CMS WordPress e siteprofissional.
+Requires at least: 5.3
+Tested up to: 5.6
+Requires PHP: 5.6
+Version: 0.0.1
+License: Free
+License URI: http://siteprofissional.somee.com
+Text Domain: siteprofissional
+Tags: igreja, igreja batista, gospel
+
+Site Institucional para igreja
+*/
+
+/*body{
+	background-color: transparent;
+}*/
+
+.jumbotron a {
+	margin-left: 100px;
+}
+
+.jumbotron p {
+	margin-left: 50px;
+}
+
+.paginacao{
+	text-align: center;
+	padding: 50px;
+	background-color: #fff;
+	font-size: 18;
+}
+
+.paginacao a{
+	color: black;
+}
+
+.paginacao .current{
+	background-color: yellow;
+	color: green;
+}
+
+
+
+

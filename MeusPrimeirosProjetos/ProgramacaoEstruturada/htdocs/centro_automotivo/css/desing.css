@@ -1,0 +1,151 @@
+body{
+	background-color: yellow;
+	background-image: linear-gradient(to bottom, yellow 10%, red 100%);
+	background-attachment: fixed;
+}
+
+
+#conteudo{
+	margin: auto;
+	padding: 0px;
+	width: 900px;
+	height: 1200px;
+	background-color: white;
+
+}
+
+
+
+
+#topo{
+	position: relative;
+	margin: auto;
+	padding: 0px;
+	width: 900px;
+	
+	background-image: url(../imagens/centro_automotivo.jpg);
+	background-size: 100%;
+	height: 280px;
+}
+
+.servicos{
+	position: relative;
+  background-color: yellow;
+  width: 380px;
+  height: 230px;
+  margin: 30px;
+
+}
+
+#servicos1{
+position: relative;
+float: right;
+background-image: url(../imagens/Suspensao.jpg);
+
+margin: 20px;
+padding: 20px;
+}
+
+#servicos2{
+position: relative;
+background-image: url(../imagens/freio.jpg);
+background-size: 100%;
+margin: 20px;
+padding: 20px;
+}
+
+#servicos3{
+position: relative;
+background-image: url(../imagens/direcao.jpg);
+background-size: 100%;
+float: right;
+bottom: 20px;
+margin: 20px;
+padding: 20px;
+}
+
+#servicos4{
+position: relative;
+background-image: url(../imagens/escapamento.jpg);
+background-size: 100%;
+margin: 20px;
+padding: 20px;
+}
+
+#servicos5{
+position: relative;
+background-image: url(../imagens/troca_oleo.jpg);
+background-size: 100%;
+float: right;
+bottom: 40px;
+margin: 20px;
+padding: 20px;
+}
+
+#servicos6{
+position: relative;
+background-image: url(../imagens/alinhamento.jpg);
+background-size: 100%;
+margin: 20px;
+padding: 20px;
+
+}
+
+#rede1{
+	position: relative;
+	float: right;
+	margin-top: 60px;
+	margin-right: 60px;
+	background-color: red;
+	bottom: 70px;
+}
+
+#rede2{
+	position: relative;
+	float: right;
+margin-top: 120px;
+left: 50px;
+background-color: yellow;
+bottom: 70px;
+}
+
+#rede3{
+	position: relative;
+	float: right;
+margin-top: 120px;
+
+left: 100px;
+
+background-color: black;
+}
+
+#rodape{
+	position: relative;
+	margin: auto;
+	width: 700px;
+	height: 80px;
+	background-color: red;
+	padding: 100px;
+	padding-top: 20px;	
+}
+
+#formulario{
+	position: relative;
+	top: 180px;
+	background-color: red;
+	width: 170px;
+	height: 100px;
+}
+
+#input{
+	position: relative;
+	top: 3px;
+	left: 2px;
+}
+
+#submit{
+	position: relative;
+	top: 5px;
+	left: 2px;
+}
+

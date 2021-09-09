@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Logica de desenvolvimento em jquery</title>
+	<!-- usando o cdn 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	baixando o arquivo depois renomear -->
+	<script type="text/javascript" src="../mod1/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript">
+		$(Document).ready(function(){
+			// $('h1').css("color", "#f66");
+			// $('h1').hide();
+			// $('h1').delay('1000');
+			// $('h1').fadeIn("slow");
+			// $('h1').text('curso de informatica');
+
+			// $('h1').css("color", "#f66").hide().delay('1000').fadeIn("slow").text('curso de informatica');
+
+			// $('h1')
+			// .css("color", "#f66")
+			// .hide().delay('1000')
+			// .fadeIn("slow")
+			// .text('curso de informatica')
+			// .click(function(){
+			// 	$('body').css("background", "#C30")
+			// 	$('h1').css("color", "#fff")
+				
+			// });
+
+			$('a').css({color: 'red', display: 'block'});
+			$('.link2').css("color", "green");
+			$('#link3').css("color", "black");
+			$('*').css("padding", "10px");
+			$('h1, #link3').css("border-bottom", "solid 10px blue");
+			$('h1').css("margin-left", "400px");
+			$('h1').css("margin-right", "350px");
+		});
+
+		
+	</script>
+</head>
+<body>
+
+<h1>Analise e Desenvolvimento de Sistemas</h1>
+
+	<a href="#">link 1</a>
+	<a href="#" class="link2">link 2</a>
+	<a href="#" id="link3">link 3</a>
+
+
+
+</body>
+</html>
