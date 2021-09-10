@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/09/2021, 08:59:49
+    Author     : leand
+*/
+
+body{
+    background-color: #c0c0c0;
+}
+
+#cadastro fieldset{
+    width: 450px;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+#cadastro fieldset legend{
+    
+    padding: 6px;
+    background-color: cadetblue;
+}
+
+#cadastro fieldset label{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    padding: 5px;
+}
+
+#cadastro fieldset input{
+    background-color: gold;
+    width: 200px;
+    height: 60px;
+    border: 0px;
+}
+
