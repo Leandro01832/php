@@ -12,8 +12,34 @@ body{
     background-color: #c0c0c0;
 }
 
+#Listar fieldset{
+    width: 600px;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+#Listar fieldset legend{
+    
+    padding: 6px;
+    background-color: cadetblue;
+}
+
+#Listar fieldset label{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    padding: 5px;
+}
+
+#Listar fieldset input{
+    background-color: gold;
+    width: 200px;
+    height: 60px;
+    border: 0px;
+}
+
 #cadastro fieldset{
-    width: 450px;
+    width: 500px;
     padding: 10px;
     background-color: cadetblue;
 }
