@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<?php
+
+$conexao = PDO("sqlsrv:Server=localhost;Database=testdb", "UserName", "Password");
+
+?>
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Banco</title>
+        <title>Igreja</title>
         <script type="text/javascript">
         
          function apagar(id, desc)
@@ -27,27 +26,31 @@ and open the template in the editor.
             <tr>
                 <td>ID</td>
                 <td>Nome</td>
-                <td>Saldo</td>
+                <td>Email</td>
                 <td>Ação</td>
             </tr>
         <?php
         try{
-        $conexao = new PDO('mysql:host=localhost;dbname=pdo', "root", "leandro");
         
-        $sql = "select * from conta order by id asc";
-        foreach ($conexao->query($sql) as $row)
-        { ?>
+        $sql = "select * from Pessoa order by id asc";
+        $prepare = $conexao->prepare($sql);
+        $prepare->execute();
+         $arr = $prepare->fetchAll();
+        
+        
+        foreach ($arr as $row)
+        { $i = 0; ?>
             <tr>
-                <td><?php echo $row["id"] ?></td>
-                <td><?php echo $row["nome"] ?></td>
-                <td><?php echo $row["saldo"] ?></td>
+                <td><?php echo $row["Id"] ?></td>
+                <td><?php echo $row["NomePessoa"] ?></td>
+                <td><?php echo $row["Enail"] ?></td>
                 <td>
                    || <a href="transferir.php?id=<?php echo $row["id"] ?>">Transferir</a>
                    || <a href="editar.php?id=<?php echo $row["id"] ?>">Editar Conta</a>
                    || <a href="#" onclick="apagar('<?php echo $row['id'] ?>', '<?php echo $row['nome'] ?>');">Apagar</a>
                 </td>
             </tr>             
- <?php  }
+ <?php $i++;  if($i > 100) exit; }
         
         }
         catch (PDOException $ex)
