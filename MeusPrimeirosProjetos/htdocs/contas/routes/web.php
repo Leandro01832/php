@@ -18,8 +18,14 @@ Route::get('/', function () {
 });
 
 Route::get('/contas', "App\Http\Controllers\ContasPagarController@listar");
-Route::get('/contas/cadastrar', "App\Http\Controllers\ContasPagarController@cadastro");
-Route::post('/contas/salvar', "App\Http\Controllers\ContasPagarController@salvar");
+Route::get('/contas/cadastrar', "App\Http\Controllers\ContasPagarController@cadastro",
+ function(){})->middleware("auth");
+Route::post('/contas/salvar', "App\Http\Controllers\ContasPagarController@salvar",
+ function(){})->middleware("auth");
 Route::get('/contas/editar/{id}', "App\Http\Controllers\ContasPagarController@editar");
 Route::post('/contas/atualizar/{id}', "App\Http\Controllers\ContasPagarController@atualizar");
 Route::get('/contas/apagar/{id}', "App\Http\Controllers\ContasPagarController@apagar");
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
