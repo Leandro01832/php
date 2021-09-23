@@ -26,7 +26,8 @@ class HomeController extends Controller
     public function index()
     {
         $produtos = Produto::all();
-        return view('home')->with("produtos", $produtos);
+        $marcas = Marca::all();
+        return view('home')->with("produtos", $produtos)->with("marcas", $marcas);
     }
 
     public function produto($id)
